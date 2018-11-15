@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DetailReport.cs](./CS/DetailReport.cs) (VB: [DetailReport.vb](./VB/DetailReport.vb))
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [MasterReport.cs](./CS/MasterReport.cs) (VB: [MasterReport.vb](./VB/MasterReport.vb))
+<!-- default file list end -->
 # How to create a drill-through report
 
 

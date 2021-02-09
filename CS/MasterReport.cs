@@ -1,10 +1,10 @@
-using System.Data;
+using DevExpress.DataAccess.Sql.DataApi;
+using DevExpress.XtraReports.UI;
 using System.Drawing.Printing;
 using System.Windows.Forms;
-using DevExpress.XtraReports.UI;
-// ...
 
-namespace DrillThroughReport {
+namespace DrillThroughReport
+{
     public partial class MasterReport : DevExpress.XtraReports.UI.XtraReport {
         public MasterReport() {
             InitializeComponent();
@@ -15,9 +15,10 @@ namespace DrillThroughReport {
         }
 
         private void xrLabel1_PreviewClick(object sender, PreviewMouseEventArgs e) {
+            IRow row = (IRow)e.Brick.Value;
             DetailReport detailReport = new DetailReport();
-            detailReport.catId.Value = (int)((DataRowView)e.Brick.Value).Row["CategoryID"];
-            detailReport.catName.Value = ((DataRowView)e.Brick.Value).Row["CategoryName"].ToString();
+            detailReport.Parameters["catId"].Value = row["CategoryID"];
+            detailReport.Parameters["catName"].Value = row["CategoryName"];
             detailReport.ShowPreviewDialog();
         }
 

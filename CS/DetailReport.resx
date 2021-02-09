@@ -112,81 +112,15 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Detail.Name" xml:space="preserve">
-    <value>Detail</value>
+  <metadata name="sqlDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
   </metadata>
-  <metadata name="xrTable1.Name" xml:space="preserve">
-    <value>xrTable1</value>
-  </metadata>
-  <metadata name="xrTableRow1.Name" xml:space="preserve">
-    <value>xrTableRow1</value>
-  </metadata>
-  <metadata name="xrTableCell1.Name" xml:space="preserve">
-    <value>xrTableCell1</value>
-  </metadata>
-  <metadata name="xrTableCell2.Name" xml:space="preserve">
-    <value>xrTableCell2</value>
-  </metadata>
-  <metadata name="xrTableCell3.Name" xml:space="preserve">
-    <value>xrTableCell3</value>
-  </metadata>
-  <metadata name="xrTableCell4.Name" xml:space="preserve">
-    <value>xrTableCell4</value>
-  </metadata>
-  <metadata name="ReportHeader.Name" xml:space="preserve">
-    <value>ReportHeader</value>
-  </metadata>
-  <metadata name="lbCategory.Name" xml:space="preserve">
-    <value>lbCategory</value>
-  </metadata>
-  <metadata name="catName.Name" xml:space="preserve">
-    <value>catName</value>
-  </metadata>
-  <metadata name="xrLabel1.Name" xml:space="preserve">
-    <value>xrLabel1</value>
-  </metadata>
-  <metadata name="nwindDataSet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="nwindDataSet11.Name" xml:space="preserve">
-    <value>nwindDataSet11</value>
-  </metadata>
-  <metadata name="productsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>158, 17</value>
-  </metadata>
-  <metadata name="productsTableAdapter.Name" xml:space="preserve">
-    <value>productsTableAdapter</value>
-  </metadata>
-  <metadata name="catId.Name" xml:space="preserve">
-    <value>catId</value>
-  </metadata>
-  <metadata name="GroupHeader1.Name" xml:space="preserve">
-    <value>GroupHeader1</value>
-  </metadata>
-  <metadata name="xrTable2.Name" xml:space="preserve">
-    <value>xrTable2</value>
-  </metadata>
-  <metadata name="xrTableRow2.Name" xml:space="preserve">
-    <value>xrTableRow2</value>
-  </metadata>
-  <metadata name="xrTableCell5.Name" xml:space="preserve">
-    <value>xrTableCell5</value>
-  </metadata>
-  <metadata name="xrTableCell6.Name" xml:space="preserve">
-    <value>xrTableCell6</value>
-  </metadata>
-  <metadata name="xrTableCell7.Name" xml:space="preserve">
-    <value>xrTableCell7</value>
-  </metadata>
-  <metadata name="xrTableCell8.Name" xml:space="preserve">
-    <value>xrTableCell8</value>
-  </metadata>
-  <metadata name="$this.Name" xml:space="preserve">
-    <value>DetailReport</value>
-  </metadata>
+  <data name="sqlDataSource1.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlByb2R1Y3RzIj48RmllbGQgTmFtZT0iUHJvZHVjdElEIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iUHJvZHVjdE5hbWUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU3VwcGxpZXJJRCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkNhdGVnb3J5SUQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJRdWFudGl0eVBlclVuaXQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVW5pdFByaWNlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJVbml0c0luU3RvY2siIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJVbml0c09uT3JkZXIiIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJSZW9yZGVyTGV2ZWwiIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJEaXNjb250aW51ZWQiIFR5cGU9IkJvb2xlYW4iIC8+PEZpZWxkIE5hbWU9IkVBTjEzIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjwvRGF0YVNldD4=</value>
+  </data>
 </root>

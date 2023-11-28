@@ -1,6 +1,7 @@
 using System;
 using System.Windows.Forms;
 using DevExpress.XtraReports.UI;
+using Drill_through_example;
 // ...
 
 namespace DrillThroughReport {
@@ -10,7 +11,7 @@ namespace DrillThroughReport {
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            MasterReport report = new MasterReport();
+            XtraReportCategories report = new XtraReportCategories();
             ReportPrintTool printTool = new ReportPrintTool(report);
             printTool.ShowPreviewDialog();
         }
